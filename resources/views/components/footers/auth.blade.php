@@ -8,28 +8,28 @@
 
                     </script>,
                     made with <i class="fa fa-heart"></i> by
-                    <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">beyondbiashara</a> &
-                    <a href="https://www.updivision.com" class="font-weight-bold" target="_blank"> MWACHSTEVE@GMAIL.COM</a>
+                    <a href="http://102.212.246.229" class="font-weight-bold" target="_blank">beyondbiashara</a> &
+                    <a href="http://102.212.246.229" class="font-weight-bold" target="_blank"> mwachsteve@gmail.com</a>
                     for a better web.
                 </div>
             </div>
             <div class="col-lg-6">
                 <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                     <li class="nav-item">
-                        <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Acea</a>
+                        <a href="http://102.212.246.229" class="nav-link text-muted" target="_blank">Acea</a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.updivision.com" class="nav-link text-muted" target="_blank">Agriculture</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted"
+                        <a href="http://102.212.246.229/presentation" class="nav-link text-muted"
                             target="_blank">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+                        <a href="http://102.212.246.229/blog" class="nav-link text-muted" target="_blank">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted"
+                        <a href="http://102.212.246.229/license" class="nav-link pe-0 text-muted"
                             target="_blank">License</a>
                     </li>
                 </ul>

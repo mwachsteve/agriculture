@@ -120,18 +120,39 @@
                     <span class="nav-link-text ms-1">Sign Up</span>
                 </a>
             </li>
+            <li class="nav-item mt-3">
+                <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">Milestone</h6>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white {{ $activePage == 'milestones' ? ' active bg-gradient-primary' : '' }}  "
+                    href="{{ route('milestones') }}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">groups</i>
+                    </div>
+                    <span class="nav-link-text ms-1">Milestone Management</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white {{ $activePage == 'milestones' ? ' active bg-gradient-primary' : '' }}  "
+                    href="{{ route('milestones.create') }}"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">groups</i>
+                    </div>
+                    <span class="nav-link-text ms-1">Add Milestone</span>
+                </a>
+            </li>
         </ul>
     </div>
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">
         <div class="mx-3">
-            <a class="btn bg-gradient-primary w-100" href="https://www.creative-tim.com/product/material-dashboard-laravel" target="_blank">Finance</a>
+            <a class="btn bg-gradient-primary w-100" href="http://102.212.246.229/dashboard" target="_blank">Finance</a>
         </div>
         <div class="mx-3">
             <a class="btn bg-gradient-primary w-100" href="../../documentation/getting-started/installation.html" target="_blank">Membership</a>
         </div>
         <div class="mx-3">
             <a class="btn bg-gradient-primary w-100"
-                href="https://www.creative-tim.com/product/material-dashboard-pro-laravel" target="_blank" type="button">Customer
+                href="http://102.212.246.229/customer" target="_blank" type="button">Customer
                 Division</a>
         </div>
     </div>

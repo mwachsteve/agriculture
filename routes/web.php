@@ -21,6 +21,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SessionsController;
+use App\Http\Controllers\MilestoneController;
             
 
 Route::get('/', function () {return redirect('sign-in');})->middleware('guest');
@@ -68,5 +69,17 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('user-management');
 	Route::get('user-profile', function () {
 		return view('pages.laravel-examples.user-profile');
-	})->name('user-profile');
+	})->name('user-profile');	
+	// Route::get('milestones', function () {
+	// 	return view('pages.milestones');
+	// })->name('milestones');
+	
+	Route::get('milestones-create', [MilestoneController::class, 'create'])->name('milestones.create');		
+
+	Route::get('milestones', [MilestoneController::class,'index'])->name('milestones');
+	// Route::post('uploadproduct', 'App\Http\Controllers\MilestoneController@addMilestone');
+	// Route::post('/addMilestone', [MilestoneController::class,'addMilestone']);
+	Route::post('/addMilestone', [MilestoneController::class,'addMilestone'])->name('milestone.addMilestone');
+	Route::post('/update/{id}', [MilestoneController::class,'update'])->name('milestone.update');
+	// ->name('uploadproduct');
 });
